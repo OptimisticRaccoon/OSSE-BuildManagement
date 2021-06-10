@@ -22,7 +22,7 @@
     </dependency>
 
     <!-- für das Praktikum "Integrationstest"-->
-    <!--dependency>
+    <dependency>
       <groupId>org.easymock</groupId>
       <artifactId>easymock</artifactId>
       <version>3.6</version>
@@ -33,7 +33,7 @@
       <artifactId>hamcrest-library</artifactId>
       <version>1.3</version>
       <scope>test</scope>
-    </dependency-->
+    </dependency>
   </dependencies>
 
   <reporting>
@@ -47,11 +47,11 @@
       </plugin>
 
       <!-- für das Praktikum "Integrationstest"-->
-      <!--plugin>
+      <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
         <version>0.8.6</version>
-      </plugin-->
+      </plugin>
 
     </plugins>
   </reporting>
@@ -74,7 +74,7 @@
       </plugin>
 
       <!-- für das Praktikum "Integrationstest"-->
-      <!--plugin>
+      <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
         <version>0.8.6</version>
@@ -92,7 +92,7 @@
             </goals>
           </execution>
         </executions>
-      </plugin-->
+      </plugin>
     </plugins>
 
     <pluginManagement>
